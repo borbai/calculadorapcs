@@ -67,5 +67,6 @@ if st.button("Calcular Salário de Enquadramento"):
         salario_enquadramento = limite_aumento
 
     st.success(f"O salário de enquadramento para o cargo de {cargo} com {anos_experiencia} anos de empresa é: R$ {salario_enquadramento:.2f}")
+    st.info("Este valor deve ser confrontado com a tabela de Faixas Salariais e ser arredondado para o primeiro nível acima.")
     st.info("Este é um cálculo não oficial, baseado em um das interpretações do PCS apresentado pela empresa.")
 
